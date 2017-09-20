@@ -2,26 +2,28 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the AboutPage page.
+ * Generated class for the SimulatorPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 
-@IonicPage({
-  name:'about'
-})
+@IonicPage(
+  {
+    name:'simulator'
+  }
+)
 @Component({
-  selector: 'page-about',
-  templateUrl: 'about.html',
+  selector: 'page-simulator',
+  templateUrl: 'simulator.html',
 })
-export class AboutPage {
+export class SimulatorPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AboutPage');
+    console.log('ionViewDidLoad SimulatorPage');
   }
 
 }
